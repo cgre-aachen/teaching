@@ -1,0 +1,17 @@
+name: cgre-teaching
+
+channels:
+  - conda-forge
+
+dependencies:
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit_learn
+  - scipy
+  - sympy
+
+  # extensions
+  - jupyter_contrib_nbextensions
+  - nbgrader
+
