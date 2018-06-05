@@ -6,3 +6,4 @@ sympy==1.0
 seaborn==0.8.1
 ipywidgets
 jupyter_contrib_nbextensions
+nbgrader
