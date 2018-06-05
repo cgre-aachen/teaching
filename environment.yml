@@ -7,7 +7,7 @@ dependencies:
   - numpy
   - matplotlib
   - seaborn
-  - scikit_learn
+  - scikit-learn
   - scipy
   - sympy
 
