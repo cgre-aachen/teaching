@@ -7,4 +7,6 @@ Of course, you can simply download or clone the notebooks and run them in your e
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cgre-aachen/teaching/master)
 
+Or on mobile, you can scan this qr-code:  
 
+![qrcode](imgs/qrcode.png)
