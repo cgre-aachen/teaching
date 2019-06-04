@@ -1,0 +1,39 @@
+              Parameters for SGSIM                                         
+              ********************                                         
+                                                                           
+START OF PARAMETER:                                                        
+none                          -file with data                              
+1  2  0  3  5  0              -  columns for X,Y,Z,vr,wt,sec.var.          
+-1.0e21 1.0e21                -  trimming limits                           
+0                             -transform the data (0=no, 1=yes)            
+none.trn                      -  file for output trans table               
+1                             -  consider ref. dist (0=no, 1=yes)          
+none.dat                      -  file with ref. dist distribution          
+1  0                          -  columns for vr and wt                     
+-4.0    4.0                   -  zmin,zmax(tail extrapolation)             
+1      -4.0                   -  lower tail option, parameter              
+1       4.0                   -  upper tail option, parameter              
+0                             -debugging level: 0,1,2,3                    
+nonw.dbg                      -file for debugging output                   
+simulation           -file for simulation output                  
+1                 -number of realizations to generate          
+100 5.0 10                              
+100 5.0 10                              
+1 0.0 1.0                     - nz zmn zsiz                                
+74073                  -random number seed                          
+0     8                       -min and max original data for sim           
+12                            -number of simulated nodes to use            
+0                             -assign data to nodes (0=no, 1=yes)          
+1     3                       -multiple grid search (0=no, 1=yes),num      
+0                             -maximum data per octant (0=not used)        
+1800 1800 1.0 -maximum search  (hmax,hmin,vert) 
+65   0.0   0.0       -angles for search ellipsoid                 
+361 361 1 -size of covariance lookup table        
+0     0.60   1.0              -ktype: 0=SK,1=OK,2=LVM,3=EXDR,4=COLC        
+none.dat                      -  file with LVM, EXDR, or COLC variable     
+4                             -  column for secondary variable             
+1 0.0  -nst, nugget effect                          
+1 1.0 65 0.0 0.0 -it,cc,ang1,ang2,ang3
+ 1800 500 1.0 - a_hmax, a_hmin, a_vert        
+1 0 0 0.0 0.0 -it,cc,ang1,ang2,ang3
+ 0 0 1.0 - a_hmax, a_hmin, a_vert        
